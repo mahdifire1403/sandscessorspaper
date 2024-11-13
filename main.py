@@ -1,4 +1,5 @@
 import random
+
 random_Number = random.randint(0, 2)
 if random_Number == 0:
     computer_Move = "rock"
@@ -21,4 +22,5 @@ if random_Number == 2:
                 print("player_2 wins...")
             elif player_2 == "scissors":
                 print("player_2 wins...")
-    else: print("something went wrong")
+    else:
+        print("something went wrong")
